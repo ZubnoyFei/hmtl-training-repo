@@ -40,3 +40,14 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+#forward {
+    font-family: roboto-regular;
+}
+
+.menu{
+    display: flex;
+   justify-content: space-around;
+}
+
+
