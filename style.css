@@ -1,0 +1,25 @@
+#rowspan {
+    margin-right: 50px;
+}
+
+#colspan {
+    margin-left: -30px;
+
+}
+
+#sum {
+    background-color: hotpink ;
+}
+
+#head{
+    text-align: center;
+    background-color: gold;
+}
+
+th,td, thead {
+    border: 1px solid grey;
+}
+
+table{
+    background-color: coral;
+}
