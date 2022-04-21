@@ -15,31 +15,67 @@
     <h2><a href="tags.html">Tags</a></h2>
     <h2><a href="article.html">The page with an article</a></h2>
 </nav>
-<h1>Форма регистрации</h1>
+<h1>Sign up form</h1>
 <form>
     <label for="GET-firstname">Name*:</label>
     <input id="GET-firstname" type="text" name="firstname" placeholder="Enter your name" required>
     <label for="GET-lastname">Last name*:</label>
-<input id="GET-lastname" type="text" name="lastname" placeholder="Enter your last name" required>
+    <input id="GET-lastname" type="text" name="lastname" placeholder="Enter your last name" required>
     <label for="GET-nickname">Your nickname*</label>
     <input id="GET-nickname" type="text" name="nickname" placeholder="Enter your nickname" required>
     <label for="GET-birthday">Your birthday*</label>
     <input id="GET-birthday" type="date" name="birthday" required>
     <label for="GET-birthday-time">The time of your birthday</label>
     <input id="GET-birthday-time" type="time" name="time">
-    <p><select name="list1">
-        <option>Choose your city</option>
-        <option>Kyiv</option>
-        <option>Dnipro</option>
-        <option>Lviv</option>
-        <option>Odessa</option>
-        <option>Other</option>
-    </select></p>
-    <p>Email and password</p>
-    <label for="GET-email">Your email address</label>
-    <input id="GET-email" type="email" name="email" placeholder="email">
-    <label for="GET-password">Create your password</label>
-    <input id="GET-password" type="password" name="password" placeholder="Password">
+    <p><label>
+        <select name="list1">
+            <option>Choose your city</option>
+            <option>Kyiv</option>
+            <option>Dnipro</option>
+            <option>Lviv</option>
+            <option>Odessa</option>
+            <option>Other</option>
+        </select>
+    </label></p>
+    <div>
+        <h2>Email and password</h2>
+        <label for="GET-email">Your email address</label>
+        <input id="GET-email" type="email" name="email" placeholder="email" required>
+        <label for="GET-password">Create your password*</label>
+        <input id="GET-password" type="password" name="password" placeholder="Password" required>
+        <label for="CONFIRM-thepassword">Confirm your password*</label>
+        <input id="CONFIRM-thepassword" type="password" name="password" placeholder="Password">
+    </div>
+    <div>
+        <h2>Contact information</h2>
+        <label for="GET-telephone">Enter your phone number*</label>
+        <input id="GET-telephone" type="tel" name="number" placeholder="Phone number" required>
+        <label for="GET-additionalphone">Enter the additional phone number</label>
+        <input id="GET-additionalphone" type="tel" name="number" placeholder="additional phone number">
+        <label for="GET-skype">Enter your Skype</label>
+        <input id="GET-skype" type="text" name="skype" placeholder="Skype">
+    </div>
+    <div>
+        <h2>Skills level</h2>
+        <div><label for="HTML-skills">HTML</label>
+            <input id="HTML-skills" type="range" min="1" max="100" value="50" class="slider">
+        </div>
+        <div><label for="CSS-SKILLS">CSS skills</label>
+            <input id="CSS-SKILLS" type="range" min="1" max="100" value="50" class="slider"></div>
+    </div>
+    <div><label for="tell-about">
+        About
+    </label>
+        <textarea id="tell-about" placeholder="Tell us about yourself"></textarea>
+
+        <h2>Your gender</h2>
+        <label for="Male">Male</label>
+        <input id="male" type="radio" name="gender" value="male">
+        <label for="female">Female</label>
+        <input id="female" type="radio" name="gender" value="female">
+        <label for="other">Other</label>
+        <input id="other" type="radio" name="gender" value="other">
+    </div>
 </form>
 </body>
 </html>
