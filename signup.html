@@ -18,114 +18,125 @@
         <h2><a href="markup.html">Markup</a></h2>
     </nav>
     <h1>Sign up form</h1>
-    <form action="https://google.com">
-        <label for="GET-firstname">Name*:</label>
-        <input id="GET-firstname" type="text" name="firstname" placeholder="Enter your name" required>
-        <label for="GET-lastname">Last name*:</label>
-        <input id="GET-lastname" type="text" name="lastname" placeholder="Enter your last name" required>
-        <label for="GET-nickname">Your nickname*</label>
-        <input id="GET-nickname" type="text" name="nickname" placeholder="Enter your nickname" required>
-        <label for="GET-birthday">Your birthday*</label>
-        <input id="GET-birthday" type="date" name="birthday" required>
-        <label for="GET-birthday-time">The time of your birthday</label>
-        <input id="GET-birthday-time" type="time" name="time">
-        <p><label>
-            <select name="list1">
-                <option selected disabled>Choose your city</option>
-                <option>Kyiv</option>
-                <option>Dnipro</option>
-                <option>Lviv</option>
-                <option>Odessa</option>
-                <option>Other</option>
-            </select>
-        </label></p>
-        <div>
-            <h2>Email and password</h2>
-            <label for="GET-email">Your email address</label>
-            <input id="GET-email" type="email" name="email" placeholder="email" required>
-            <label for="GET-password">Create your password*</label>
-            <input id="GET-password" type="password" name="password" placeholder="Password" required>
-            <label for="CONFIRM-thepassword">Confirm your password*</label>
-            <input id="CONFIRM-thepassword" type="password" name="password" placeholder="Password">
-        </div>
-        <div>
-            <h2>Contact information</h2>
-            <label for="GET-telephone">Enter your phone number*</label>
-            <input id="GET-telephone" type="tel" name="number" placeholder="Phone number" required>
-            <label for="GET-additionalphone">Enter the additional phone number</label>
-            <input id="GET-additionalphone" type="tel" name="number" placeholder="additional phone number">
-            <label for="GET-skype">Enter your Skype</label>
-            <input id="GET-skype" type="text" name="skype" placeholder="Skype">
-        </div>
-        <div>
-            <h2>Skills level</h2>
-            <div><label for="HTML-skills">HTML</label>
-                <input id="HTML-skills" type="range" min="1" max="100" value="50" class="slider">
-            </div>
-            <div><label for="CSS-SKILLS">CSS skills</label>
-                <input id="CSS-SKILLS" type="range" min="1" max="100" value="50" class="slider"></div>
-        </div>
-        <div><label for="tell-about">
-            About
-        </label>
-            <textarea id="tell-about" placeholder="Tell us about yourself"></textarea>
-
-            <h2>Your gender</h2>
-            <label for="male">Male</label>
-            <input id="male" type="radio" name="male" value="male">
-            <label for="female">Female</label>
-            <input id="female" type="radio" name="female" value="female">
-            <label for="other-gender">Other</label>
-            <input id="other-gender" type="radio" name="other-gender" value="other-gender">
-        </div>
-        <div>
-            <h2>Your favourite color</h2>
-            <label for="choose-color"></label>
-            <input id="choose-color" type="color" name="color" value="#e66465">
-        </div>
-        <div>
-            <h2>Your employment type</h2>
-            <label for="full-time">Full time employment</label>
-            <input id="full-time" type="radio" name="employment" value="full-time">
-            <label for="part-time">Part-time employment</label>
-            <input id="part-time" type="radio" name="employment" value="part-time">
-            <label for="freelance">Freelance</label>
-            <input id="freelance" type="radio" name="freelance" value="freelance">
-            <label for="temporarily-unemployed">Temporarily unemployed</label>
-            <input id="temporarily-unemployed" type="radio" name="temporarily-unemployed"
-                   value="temporarily-unemployed">
-            <label for="student">Student</label>
-            <input id="student" type="radio" name="student" value="student">
-        </div>
-        <div><h2>Do you have a pet?</h2>
-            <label for="cat">Cat</label>
-            <input id="cat" type="checkbox" name="cat" value="cat">
-            <label for="dog">Dog</label>
-            <input id="dog" type="checkbox" name="dog" value="dog">
-            <label for="fish">Fish</label>
-            <input id="fish" type="checkbox" name="fish" value="fish">
-            <label for="other-pet">Other</label>
-            <input id="other-pet" type="checkbox" name="other-pet" value="other-pet">
-            <p>Add the file</p>
-            <input id="add-file" type="file" name="add-file">
-        </div>
-
-        <div><label for="study">What do you study?</label>
-            <select id="study" name="studying">
-                <option selected disabled>Choose the specialization</option>
-                <option>Front-end</option>
-                <option>Back-end</option>
-                <option>Quality Assurance automation</option>
-                <option>Quality Assurance manual</option>
-                <option>DevOps</option>
-            </select>
-        </div>
-        <div>
-            <button type="submit">Send</button>
-            <button type="reset">Cancel</button>
-        </div>
+    <section>
+        <form action="https://google.com">
+            <label for="GET-firstname">Name*:</label>
+            <input id="GET-firstname" type="text" name="firstname" placeholder="Enter your name" required>
+            <label for="GET-lastname">Last name*:</label>
+            <input id="GET-lastname" type="text" name="lastname" placeholder="Enter your last name" required>
+            <label for="GET-nickname">Your nickname*</label>
+            <input id="GET-nickname" type="text" name="nickname" placeholder="Enter your nickname" required>
+            <label for="GET-birthday">Your birthday*</label>
+            <input id="GET-birthday" type="date" name="birthday" required>
+            <label for="GET-birthday-time">The time of your birthday</label>
+            <input id="GET-birthday-time" type="time" name="time">
+            <p><label>
+                <select name="list1">
+                    <option selected disabled>Choose your city</option>
+                    <option>Kyiv</option>
+                    <option>Dnipro</option>
+                    <option>Lviv</option>
+                    <option>Odessa</option>
+                    <option>Other</option>
+                </select>
+            </label></p>
+            </form>
+    </section>
+    <section><form>
+        <h2>Email and password</h2>
+        <label for="GET-email">Your email address</label>
+        <input id="GET-email" type="email" name="email" placeholder="email" required>
+        <label for="GET-password">Create your password*</label>
+        <input id="GET-password" type="password" name="password" placeholder="Password" required>
+        <label for="CONFIRM-thepassword">Confirm your password*</label>
+        <input id="CONFIRM-thepassword" type="password" name="password" placeholder="Password">
     </form>
-    <footer>&copy; Copyright </footer>
+    </section>
+    <section>
+        <form>
+        <h2>Contact information</h2>
+        <label for="GET-telephone">Enter your phone number*</label>
+        <input id="GET-telephone" type="tel" name="number" placeholder="Phone number" required>
+        <label for="GET-additionalphone">Enter the additional phone number</label>
+        <input id="GET-additionalphone" type="tel" name="number" placeholder="additional phone number">
+        <label for="GET-skype">Enter your Skype</label>
+        <input id="GET-skype" type="text" name="skype" placeholder="Skype">
+        </form>
+    </section>
+    <section>
+        <form>
+        <h2>Skills level</h2>
+        <div><label for="HTML-skills">HTML</label>
+            <input id="HTML-skills" type="range" min="1" max="100" value="50" class="slider">
+        </div>
+        <div><label for="CSS-SKILLS">CSS skills</label>
+            <input id="CSS-SKILLS" type="range" min="1" max="100" value="50" class="slider"></div>
+        </form>
+    </section>
+    <section><label for="tell-about">
+        About
+    </label>
+        <textarea id="tell-about" placeholder="Tell us about yourself"></textarea>
+
+        <h2>Your gender</h2>
+        <form>
+        <label for="male">Male</label>
+        <input id="male" type="radio" name="male" value="male">
+        <label for="female">Female</label>
+        <input id="female" type="radio" name="female" value="female">
+        <label for="other-gender">Other</label>
+        <input id="other-gender" type="radio" name="other-gender" value="other-gender">
+        </form>
+    </section>
+    <section>
+        <h2>Your favourite color</h2>
+        <label for="choose-color"></label>
+        <input id="choose-color" type="color" name="color" value="#e66465">
+    </section>
+    <section><form>
+        <h2>Your employment type</h2>
+        <label for="full-time">Full time employment</label>
+        <input id="full-time" type="radio" name="employment" value="full-time">
+        <label for="part-time">Part-time employment</label>
+        <input id="part-time" type="radio" name="employment" value="part-time">
+        <label for="freelance">Freelance</label>
+        <input id="freelance" type="radio" name="freelance" value="freelance">
+        <label for="temporarily-unemployed">Temporarily unemployed</label>
+        <input id="temporarily-unemployed" type="radio" name="temporarily-unemployed"
+               value="temporarily-unemployed">
+        <label for="student">Student</label>
+        <input id="student" type="radio" name="student" value="student">
+    </form>
+    </section>
+    <section><form><h2>Do you have a pet?</h2>
+        <label for="cat">Cat</label>
+        <input id="cat" type="checkbox" name="cat" value="cat">
+        <label for="dog">Dog</label>
+        <input id="dog" type="checkbox" name="dog" value="dog">
+        <label for="fish">Fish</label>
+        <input id="fish" type="checkbox" name="fish" value="fish">
+        <label for="other-pet">Other</label>
+        <input id="other-pet" type="checkbox" name="other-pet" value="other-pet">
+        <p>Add the file</p>
+        <input id="add-file" type="file" name="add-file">
+    </form>
+    </section>
+
+    <section><label for="study">What do you study?</label>
+        <select id="study" name="studying">
+            <option selected disabled>Choose the specialization</option>
+            <option>Front-end</option>
+            <option>Back-end</option>
+            <option>Quality Assurance automation</option>
+            <option>Quality Assurance manual</option>
+            <option>DevOps</option>
+        </select>
+    </section>
+    <div>
+        <button type="submit">Send</button>
+        <button type="reset">Cancel</button>
+    </div>
+    <footer>&copy; Copyright</footer>
 </main>
 </body>
 </html>
