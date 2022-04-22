@@ -69,13 +69,57 @@
         <textarea id="tell-about" placeholder="Tell us about yourself"></textarea>
 
         <h2>Your gender</h2>
-        <label for="Male">Male</label>
-        <input id="male" type="radio" name="gender" value="male">
+        <label for="male">Male</label>
+        <input id="male" type="radio" name="male" value="male">
         <label for="female">Female</label>
-        <input id="female" type="radio" name="gender" value="female">
-        <label for="other">Other</label>
-        <input id="other" type="radio" name="gender" value="other">
+        <input id="female" type="radio" name="female" value="female">
+        <label for="other-gender">Other</label>
+        <input id="other-gender" type="radio" name="other-gender" value="other-gender">
     </div>
+    <div>
+        <h2>Your favourite color</h2>
+        <label for="choose-color"></label>
+        <input id="choose-color" type="color" name="color" value="#e66465">
+    </div>
+    <div>
+        <h2>Your employment type</h2>
+        <label for="full-time">Full time employment</label>
+        <input id="full-time" type="radio" name="employment" value="full-time">
+        <label for="part-time">Part-time employment</label>
+        <input id="part-time" type="radio" name="employment" value="part-time">
+        <label for="freelance">Freelance</label>
+        <input id="freelance" type="radio" name="freelance" value="freelance">
+        <label for="temporarily-unemployed">Temporarily unemployed</label>
+        <input id="temporarily-unemployed" type="radio" name="temporarily-unemployed" value="temporarily-unemployed">
+        <label for="student">Student</label>
+        <input id="student" type="radio" name="student" value="student">
+    </div>
+    <div><h2>Do you have a pet?</h2>
+        <label for="cat">Cat</label>
+        <input id="cat" type="checkbox" name="cat" value="cat">
+        <label for="dog">Dog</label>
+        <input id="dog" type="checkbox" name="dog" value="dog">
+        <label for="fish">Fish</label>
+        <input id="fish" type="checkbox" name="fish" value="fish">
+        <label for="other-pet">Other</label>
+        <input id="other-pet" type="checkbox" name="other-pet" value="other-pet">
+        <p>Add the file</p>
+        <input id="add-file" type="file" name="add-file">
+    </div>
+
+    <div><label for="study">What do you study?</label>
+        <select id="study" name="studying">
+            <option>Front-end</option>
+            <option>Back-end</option>
+            <option>Quality Assurance automation</option>
+            <option>Quality Assurance manual</option>
+            <option>DevOps</option>
+        </select>
+    </div>
+<div>
+    <button type="submit">Send</button>
+    <button type="reset">Cancel</button>
+</div>
 </form>
 </body>
 </html>
