@@ -18,7 +18,7 @@
         <h2><a href="markup.html">Markup</a></h2>
     </nav>
     <h1>Sign up form</h1>
-    <form>
+    <form action="https://google.com">
         <label for="GET-firstname">Name*:</label>
         <input id="GET-firstname" type="text" name="firstname" placeholder="Enter your name" required>
         <label for="GET-lastname">Last name*:</label>
@@ -31,7 +31,7 @@
         <input id="GET-birthday-time" type="time" name="time">
         <p><label>
             <select name="list1">
-                <option>Choose your city</option>
+                <option selected disabled>Choose your city</option>
                 <option>Kyiv</option>
                 <option>Dnipro</option>
                 <option>Lviv</option>
@@ -112,6 +112,7 @@
 
         <div><label for="study">What do you study?</label>
             <select id="study" name="studying">
+                <option selected disabled>Choose the specialization</option>
                 <option>Front-end</option>
                 <option>Back-end</option>
                 <option>Quality Assurance automation</option>
