@@ -11,10 +11,10 @@
 </head>
 <body>
 <nav class="menu">
-<h2><a href="index.html">The main page</a></h2>
-<h2><a href="table.html">Table page</a></h2>
-<h2><a href="article.html">The page with an article</a></h2>
-<h2><a href="tags.html">Tags</a></h2>
+    <h2><a href="index.html">The main page</a></h2>
+    <h2><a href="table.html">Table page</a></h2>
+    <h2><a href="article.html">The page with an article</a></h2>
+    <h2><a href="tags.html">Tags</a></h2>
 </nav>
 <nav>
     <ul>
@@ -23,169 +23,190 @@
         <li><a href="#about">О компании</a></li>
     </ul>
 </nav>
-<dl>
-    <dt>HTML</dt>
-    <dd>HTML, or HyperText Markup Language, allows web users to create and structure sections, paragraphs, and links
-        using elements, tags, and attributes. However, it’s worth noting that HTML is not considered a programming
-        language as it can’t create dynamic functionality.
-    </dd>
-    <dt>CSS</dt>
-    <dd>
-        CSS stands for Cascading Style Sheets
-        CSS describes how HTML elements are to be displayed on screen, paper, or in other media
-        CSS saves a lot of work. It can control the layout of multiple web pages all at once
-        External stylesheets are stored in CSS files
-    </dd>
-    <dt>Java Script</dt>
-    <dd>
-        JavaScript often abbreviated JS, is a programming language that is one of the core
-        technologies of the World Wide Web, alongside HTML and CSS.[11] Over 97% of websites use JavaScript on the
-        client side for web page behavior,[12] often incorporating third-party libraries.[13] All major web browsers
-        have a dedicated JavaScript engine to execute the code on users' devices.
+<main>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HTML, or HyperText Markup Language, allows web users to create and structure sections, paragraphs, and links
+            using elements, tags, and attributes. However, it’s worth noting that HTML is not considered a programming
+            language as it can’t create dynamic functionality.
+        </dd>
+        <dt>CSS</dt>
+        <dd>
+            CSS stands for Cascading Style Sheets
+            CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+            CSS saves a lot of work. It can control the layout of multiple web pages all at once
+            External stylesheets are stored in CSS files
+        </dd>
+        <dt>Java Script</dt>
+        <dd>
+            JavaScript often abbreviated JS, is a programming language that is one of the core
+            technologies of the World Wide Web, alongside HTML and CSS.[11] Over 97% of websites use JavaScript on the
+            client side for web page behavior,[12] often incorporating third-party libraries.[13] All major web browsers
+            have a dedicated JavaScript engine to execute the code on users' devices.
 
-        JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.[14]
-        It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm,
-        supporting event-driven, functional, and imperative programming styles. It has application programming
-        interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document
-        Object Model (DOM).
-    </dd>
-</dl>
+            JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript
+            standard.[14]
+            It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm,
+            supporting event-driven, functional, and imperative programming styles. It has application programming
+            interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the
+            Document
+            Object Model (DOM).
+        </dd>
+    </dl>
 
-<table id="second-table">
-    <thead>
-    <tr id="thead">
-        <th>Форматы изображений</th>
-    </tr>
-    </thead>
-    <tbody>
+    <table id="second-table">
+        <thead>
+        <tr id="thead">
+            <th>Форматы изображений</th>
+        </tr>
+        </thead>
+        <tbody>
 
-    <tr>
-        <th></th>
-        <th>
-            jpeg
-        </th>
-        <th>png</th>
-        <th>svg</th>
-        <th>gif</th>
-        <th>webp</th>
-        <th>jpeg2000</th>
-    </tr>
-    <tr>
-        <td>Когда стоит использовать?</td>
-        <td>JPEGs offer you the most flexibility with raster editing and compression making them ideal for web images
-            that need to be downloaded quickly.
-        </td>
-        <td>PNGs are often used if size is not an issue and the image is complex, because a PNG file holds more
-            information than a JPG.
-        </td>
-        <td>SVG is vector and declarative
-            If you know you need vector art, SVG is the choice. Vector art is visually crisp and tends to be a smaller
-            file size than raster graphics like JPG. If you care a lot about the flexibility and responsiveness of the
-            graphic, SVG is the way.
-        </td>
-        <td>You should use a GIF when…
+        <tr>
+            <th></th>
+            <th>
+                jpeg
+            </th>
+            <th>png</th>
+            <th>svg</th>
+            <th>gif</th>
+            <th>webp</th>
+            <th>jpeg2000</th>
+        </tr>
+        <tr>
+            <td>Когда стоит использовать?</td>
+            <td>JPEGs offer you the most flexibility with raster editing and compression making them ideal for web
+                images
+                that need to be downloaded quickly.
+            </td>
+            <td>PNGs are often used if size is not an issue and the image is complex, because a PNG file holds more
+                information than a JPG.
+            </td>
+            <td>SVG is vector and declarative
+                If you know you need vector art, SVG is the choice. Vector art is visually crisp and tends to be a
+                smaller
+                file size than raster graphics like JPG. If you care a lot about the flexibility and responsiveness of
+                the
+                graphic, SVG is the way.
+            </td>
+            <td>You should use a GIF when…
 
-            You want to create web animation. GIF images hold all of the animation frames and timing information in one
-            single file. ...
-            You need transparency. GIF images have an “alpha channel” that can be transparent, so you can place your
-            image on any colored background.
-            You need a small file.
-        </td>
-        <td>
-            WebP is a modern image format that provides superior lossless and lossy compression for images on the web.
-            Using WebP, webmasters and web developers can create smaller, richer images that make the web faster.
-        </td>
-        <td>
-            Supports progressive decoding, an efficient code stream that displays a lower-quality version of an image
-            during download. ...
-            Delivers both lossless (bit-preserving) and lossy compression within a code stream. ...
-            Preserves the transparency in images.
-        </td>
-    </tr>
-    <tr>
-        <td>Преимущества</td>
-        <td>he JPEG format has been in use for a long time and is extremely portable;
-            The JPEG format is compatible with almost every image processing application;
-            The JPEG format is compatible with most of the hardware devices e.g printers etc – therefore it is very easy
-            to print the images in JPEG format;
-        </td>
-        <td> minimum compression loss. The image quality is not changed by any compression ratio;
-            – format is suitable for storage of intermediate versions of the image. When you re-save image, quality is
-            not lost;
-            – PNG supports a large number of colors. PNG-8 (256 colors) and PNG-24 (about 16.7 million. Colors);
-        </td>
-        <td>Unlike standard images, SVG images are vector and do not lose quality when resized or zoomed in the browser.
-            This makes them accessible for many devices and browsers. Raster formats like PNG and JPG become pixilated
-            when resized.
-            SVG graphics are resolution-independent. Other image formats may require extra assets/data to fix
-            resolution-based issues, depending on the device.
-        </td>
-        <td>One of the main advantages of using animated gifs is the size which can be relatively smaller compared with
-            other file formats. Moreover, this can be advantageous when loading images online as they can load quicker
-            without losing its quality.
-        </td>
-        <td>Faster loading times; Less media storage; Transparency and animation</td>
-        <td>The capability of showing bilevel, gray-scale, palette-color, and full-color data in several color spaces.
-            No limit for the amount of private or special-purpose information in the metadata.
-        </td>
-    </tr>
-    <tr>
-        <td>Недостатки</td>
-        <td>JPEG compression technique is a lossy compression. Lossy compression means that after the image is
-            compressed in JPEG format, it loses certain actual contents of the image;
-            Quality of Image is reduced after JPEG compression owing to the loss of actual content of the image.
-            JPEG image compression is not suitable for images with sharp edges and lines. JPEG image format is not
-            capable of handling animated graphic images;
-            JPEG images do not support layered images. The graphic designer needs to work on layered images in order to
-            manipulate and edit graphic images which are not possible with JPEG Images;
-        </td>
-        <td>
-            – doesn’t support animation;
-            – ill-suited for working with full-color images;
-            – can not store multiple images in one file;
-        </td>
-        <td>The SVG format is great for 2D graphics like logos and icons but is not ideal for detailed pictures.
-            SVG-based graphics can’t display as many details as standard image formats since they are rendered using
-            points and paths instead of pixels
-        </td>
-        <td>The fact that it only uses a color palette of 256 colors, the animated images created can sometimes look
-            poorer in comparison to other image files. For some instances, images can look slightly pixelated or images
-            that can look blocky.
-        </td>
-        <td>Not supported by all browsers; Quality is still reduced</td>
-        <td>JPEG 2000 works in only certain browsers.
-            JPEG 2000 is not backward compatible. To also leverage the original JPEG format, developers and other
-            digital professionals who adopt JPEG 2000 must code in a new standard.
-            Encoding JPEG 2000 files, which involves modifying the CPU and adding code, is resource intensive, requiring
-            much more memory for processing. Given the high capacity of modern machines, that issue likely no longer
-            exists. However, when JPEG 2000 first debuted in 2000, its memory requirement posed a significant concern.
-        </td>
-    </tr>
-    <tr>
-        <td>Поддержка браузерами</td>
-        <td>0,72%</td>
-        <td>96,6%</td>
-        <td>96,56%</td>
-        <td>92,38%</td>
-        <td>93,21%</td>
-        <td>16,88%</td>
-    </tr>
-    <tr>
-        <td>Примечания</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    </tbody>
-</table>
-<figure><img src="img/depositphotos_2983099-stock-illustration-grunge-design.jpg" alt="The eye">
-    <figcaption>The eye</figcaption>
-</figure>
-<figure><img src="img/JPEG_example_flower.jpg" alt="The flower">
-    <figcaption>The flower</figcaption>
-</figure>
+                You want to create web animation. GIF images hold all of the animation frames and timing information in
+                one
+                single file. ...
+                You need transparency. GIF images have an “alpha channel” that can be transparent, so you can place your
+                image on any colored background.
+                You need a small file.
+            </td>
+            <td>
+                WebP is a modern image format that provides superior lossless and lossy compression for images on the
+                web.
+                Using WebP, webmasters and web developers can create smaller, richer images that make the web faster.
+            </td>
+            <td>
+                Supports progressive decoding, an efficient code stream that displays a lower-quality version of an
+                image
+                during download. ...
+                Delivers both lossless (bit-preserving) and lossy compression within a code stream. ...
+                Preserves the transparency in images.
+            </td>
+        </tr>
+        <tr>
+            <td>Преимущества</td>
+            <td>he JPEG format has been in use for a long time and is extremely portable;
+                The JPEG format is compatible with almost every image processing application;
+                The JPEG format is compatible with most of the hardware devices e.g printers etc – therefore it is very
+                easy
+                to print the images in JPEG format;
+            </td>
+            <td> minimum compression loss. The image quality is not changed by any compression ratio;
+                – format is suitable for storage of intermediate versions of the image. When you re-save image, quality
+                is
+                not lost;
+                – PNG supports a large number of colors. PNG-8 (256 colors) and PNG-24 (about 16.7 million. Colors);
+            </td>
+            <td>Unlike standard images, SVG images are vector and do not lose quality when resized or zoomed in the
+                browser.
+                This makes them accessible for many devices and browsers. Raster formats like PNG and JPG become
+                pixilated
+                when resized.
+                SVG graphics are resolution-independent. Other image formats may require extra assets/data to fix
+                resolution-based issues, depending on the device.
+            </td>
+            <td>One of the main advantages of using animated gifs is the size which can be relatively smaller compared
+                with
+                other file formats. Moreover, this can be advantageous when loading images online as they can load
+                quicker
+                without losing its quality.
+            </td>
+            <td>Faster loading times; Less media storage; Transparency and animation</td>
+            <td>The capability of showing bilevel, gray-scale, palette-color, and full-color data in several color
+                spaces.
+                No limit for the amount of private or special-purpose information in the metadata.
+            </td>
+        </tr>
+        <tr>
+            <td>Недостатки</td>
+            <td>JPEG compression technique is a lossy compression. Lossy compression means that after the image is
+                compressed in JPEG format, it loses certain actual contents of the image;
+                Quality of Image is reduced after JPEG compression owing to the loss of actual content of the image.
+                JPEG image compression is not suitable for images with sharp edges and lines. JPEG image format is not
+                capable of handling animated graphic images;
+                JPEG images do not support layered images. The graphic designer needs to work on layered images in order
+                to
+                manipulate and edit graphic images which are not possible with JPEG Images;
+            </td>
+            <td>
+                – doesn’t support animation;
+                – ill-suited for working with full-color images;
+                – can not store multiple images in one file;
+            </td>
+            <td>The SVG format is great for 2D graphics like logos and icons but is not ideal for detailed pictures.
+                SVG-based graphics can’t display as many details as standard image formats since they are rendered using
+                points and paths instead of pixels
+            </td>
+            <td>The fact that it only uses a color palette of 256 colors, the animated images created can sometimes look
+                poorer in comparison to other image files. For some instances, images can look slightly pixelated or
+                images
+                that can look blocky.
+            </td>
+            <td>Not supported by all browsers; Quality is still reduced</td>
+            <td>JPEG 2000 works in only certain browsers.
+                JPEG 2000 is not backward compatible. To also leverage the original JPEG format, developers and other
+                digital professionals who adopt JPEG 2000 must code in a new standard.
+                Encoding JPEG 2000 files, which involves modifying the CPU and adding code, is resource intensive,
+                requiring
+                much more memory for processing. Given the high capacity of modern machines, that issue likely no longer
+                exists. However, when JPEG 2000 first debuted in 2000, its memory requirement posed a significant
+                concern.
+            </td>
+        </tr>
+        <tr>
+            <td>Поддержка браузерами</td>
+            <td>0,72%</td>
+            <td>96,6%</td>
+            <td>96,56%</td>
+            <td>92,38%</td>
+            <td>93,21%</td>
+            <td>16,88%</td>
+        </tr>
+        <tr>
+            <td>Примечания</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+    <figure><img src="img/depositphotos_2983099-stock-illustration-grunge-design.jpg" alt="The eye">
+        <figcaption>The eye</figcaption>
+    </figure>
+    <figure><img src="img/JPEG_example_flower.jpg" alt="The flower">
+        <figcaption>The flower</figcaption>
+    </figure>
+</main>
 </body>
 </html>
