@@ -44,14 +44,3 @@ img {
 #forward {
     font-family: roboto-regular;
 }
-
-.menu{
-    display: flex;
-   justify-content: space-around;
-}
-
-#tell-about {
-    width: 100%;
-
-}
-
