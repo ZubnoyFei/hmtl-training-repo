@@ -1,0 +1,86 @@
+
+#card1 {
+    position: absolute;
+    width: 350px;
+    height: 354px;
+    left: 240px;
+    top: 1224px;
+
+    background: #FFFFFF;
+
+    /* drop shadow */
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+#card2 {
+    position: absolute;
+    width: 350px;
+    height: 354px;
+    left: 624px;
+    top: 1224px;
+
+    background: #FFFFFF;
+
+    /* drop shadow */
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+#card3 {
+    position: absolute;
+    width: 350px;
+    height: 354px;
+    left: 1010px;
+    top: 1224px;
+
+    background: #FFFFFF;
+
+    /* drop shadow */
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+
+}
+
+#card4 {
+    position: absolute;
+    width: 350px;
+    height: 354px;
+    left: 240px;
+    top: 1615px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+#card5 {
+    position: absolute;
+    width: 350px;
+    height: 354px;
+    left: 624px;
+    top: 1615px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+#card6 {
+
+    position: absolute;
+    width: 350px;
+    height: 354px;
+    left: 1010px;
+    top: 1615px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+footer {
+    position: absolute;
+    width: 1600px;
+    height: 432px;
+    left: 0px;
+    top: 5438px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
