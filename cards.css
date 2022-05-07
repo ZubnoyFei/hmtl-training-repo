@@ -1,0 +1,31 @@
+
+
+@font-face {
+font-family: 'Mulish';
+font-style: normal;
+font-weight: normal;
+font-display: swap;
+src: url("fonts/Mulish-Regular.woff2") format('woff2')
+}
+
+@font-face {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("fonts/Mulish-Bold.woff2") format('woff2')
+}
+
+
+@font-face {
+    font-family: 'Mulish-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("fonts/Mulish-Medium.woff2") format('woff2')
+}
+
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
